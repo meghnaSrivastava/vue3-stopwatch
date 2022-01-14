@@ -1,0 +1,22 @@
+<html>
+
+<head>
+
+    <link rel="stylesheet" type="text/css" href="./style.css" />
+
+    <!-- For production,linking to a specific version number is recommended. -->
+    <script src="https://unpkg.com/vue@next"></script>
+
+</head>
+
+<body>
+
+    <div id="main"></div>
+
+    <script type="module">
+        import Counter from './counter.js'; Vue.createApp(Counter).mount("#main");
+    </script>
+
+</body>
+
+</html>
